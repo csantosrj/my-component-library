@@ -1,0 +1,28 @@
+{
+  "name": "my-component-library",
+  "version": "0.0.1",
+  "description": " A simple templete for a cutom react library.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup":"rollup -c --bundleConfigAsCjs"
+  },
+  "author": "Claudio Santos",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "rollup": "^3.17.2",
+    "rollup-plugin-dts": "^5.2.0",
+    "typescript": "^4.9.5"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
